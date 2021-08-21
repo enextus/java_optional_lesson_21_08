@@ -20,84 +20,84 @@ class Problem2Test {
     }
 
     @Test
-    public void testSolve_String_lengthOfString() {
+    public void testMethod_String10_modString() {
         String res = problem2.method("ab");
 
         assertEquals(2, res.length());
     }
 
     @Test
-    public void testSolve_twoStringUpperAndLower_oneString() {
+    public void testMethod_String9_modString() {
         String res = problem2.method("Aa");
 
         assertEquals("aA", res);
     }
 
     @Test
-    public void testSolve_twoStringUpper_oneString() {
+    public void testMethod_String8_modString() {
         String res = problem2.method("AB");
 
         assertEquals("ab", res);
     }
 
     @Test
-    public void testSolve_String_reversedString() {
+    public void testMethod_String7_modString() {
         String res = problem2.method("ab");
 
         assertEquals("AB", res);
     }
 
     @Test
-    public void testSolve_String_reversed2String() {
+    public void testMethod_String6_modString() {
         String res = problem2.method("1");
 
         assertEquals("1", res);
     }
 
     @Test
-    public void testSolve_String_reversed3String() {
+    public void testMethod_String_modString() {
         String res = problem2.method("!");
 
         assertEquals("!", res);
     }
 
     @Test
-    public void testSolve_String_reverseWithSpaceAtBeginString() {
+    public void testMethod_WithSpaceAtBeginString_modString() {
         String res = problem2.method(" ab");
 
         assertEquals(" AB", res);
     }
 
     @Test
-    public void testSolve_String_reverseWithSpaceAtEndString() {
+    public void testMethod_String5_modString() {
         String res = problem2.method("ab ");
 
         assertEquals("AB ", res);
     }
 
     @Test
-    public void testSolve_String_reverseWithSpaceAtBeginAndEndString() {
+    public void testMethod_String4_modString() {
         String res = problem2.method(" ab ");
 
         assertEquals(" AB ", res);
     }
 
     @Test
-    public void testSolve_String_reverseWithSpaceAtMiddleString() {
+    public void testMethod_String3_modString() {
         String res = problem2.method("a b");
 
         assertEquals("A B", res);
     }
 
     @Test
-    public void testSolve_StringWithThreeChar_reverseString() {
+    public void testMethod_String1_modString() {
         String res = problem2.method("abc");
 
         assertEquals("ABC", res);
     }
 
     @Test
-    public void testSolve_StringWithThreeChar_reverse4String() {
+    public void testMethod_String2_modString() {
         String res = problem2.method("AaB!S§$%rtFgr1245Qa.");
 
         assertEquals("aAb!s§$%RTfGR1245qA.", res);
