@@ -8,26 +8,26 @@ public class Problem2 {
      */
     public String method(String str) {
 
-        char[] ch = new char[str.length()];
+        char[] arrayCharsOfTheString = new char[str.length()];
 
         for (int i = 0; i < str.length(); i++) {
 
             char symbol = str.charAt(i);
 
             if (Character.isUpperCase(symbol)) {
-                ch[i] = Character.toLowerCase(symbol);
+                arrayCharsOfTheString[i] = Character.toLowerCase(symbol);
                 continue;
             }
 
             if (Character.isLowerCase(symbol)) {
-                ch[i] = Character.toUpperCase(symbol);
+                arrayCharsOfTheString[i] = Character.toUpperCase(symbol);
                 continue;
             }
 
-            ch[i] = symbol;
+            arrayCharsOfTheString[i] = symbol;
         }
 
-        return String.valueOf(ch);
+        return String.valueOf(arrayCharsOfTheString);
     }
 
 }
