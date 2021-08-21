@@ -1,7 +1,7 @@
 public class Problem1 {
 
     /**
-     * The method receive a string and return the reversed string as result.
+     * The method receive a string and returns the reversed string as result.
      *
      * @param str
      * @return
