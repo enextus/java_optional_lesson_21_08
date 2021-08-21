@@ -8,9 +8,10 @@ public class Problem2 {
      */
     public String method(String str) {
 
-        char[] arrayCharsOfTheString = new char[str.length()];
+        int stringLength = str.length();
+        char[] arrayCharsOfTheString = new char[stringLength];
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < stringLength; i++) {
 
             char symbol = str.charAt(i);
 
