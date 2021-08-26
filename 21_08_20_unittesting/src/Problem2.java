@@ -4,31 +4,31 @@ public class Problem2 {
      * The method takes a string and returns a modified string, with the letters changing their case.
      *
      * @param str
-     * @return
+     * @return modified str
      */
     public String method(String str) {
 
-        int stringLength = str.length();
-        char[] arrayCharsOfTheString = new char[stringLength];
+        int strLength = str.length();
+        char[] charsArr = new char[strLength];
 
-        for (int i = 0; i < stringLength; i++) {
+        for (int i = 0; i < strLength; i++) {
 
-            char symbol = str.charAt(i);
+            char charSymbol = str.charAt(i);
 
-            if (Character.isUpperCase(symbol)) {
-                arrayCharsOfTheString[i] = Character.toLowerCase(symbol);
+            if (Character.isUpperCase(charSymbol)) {
+                charsArr[i] = Character.toLowerCase(charSymbol);
                 continue;
             }
 
-            if (Character.isLowerCase(symbol)) {
-                arrayCharsOfTheString[i] = Character.toUpperCase(symbol);
+            if (Character.isLowerCase(charSymbol)) {
+                charsArr[i] = Character.toUpperCase(charSymbol);
                 continue;
             }
 
-            arrayCharsOfTheString[i] = symbol;
+            charsArr[i] = charSymbol;
         }
 
-        return String.valueOf(arrayCharsOfTheString);
+        return String.valueOf(charsArr);
     }
 
 }
