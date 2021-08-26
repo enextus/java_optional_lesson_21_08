@@ -1,8 +1,8 @@
 public class Problem3GCD {
 
     /**
-     * The method accepts only positive int numbers.
      * GcdSolver
+     * The method accepts only positive int numbers.
      * GCD(m,n) (the greatest common divisor)
      *
      * @param a int number
