@@ -44,9 +44,4 @@ class Problem3GCDTest {
         assertEquals(21, gcdSolver.gcdSolver(462, 1071));
     }
 
-    @Test
-    public void test_gcdSolver24826148_45296490_526() {
-        assertEquals(526, gcdSolver.gcdSolver(24826148, 45296490));
-    }
-
 }
