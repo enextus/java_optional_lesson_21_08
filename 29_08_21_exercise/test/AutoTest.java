@@ -13,9 +13,13 @@ class AutoTest {
         auto = new Auto("1", "2");
     }
 
-
     @Test
     public void test_one() {
         assertEquals("1", auto.getName());
+    }
+
+    @Test
+    public void test_two() {
+        assertEquals("2", auto.getIdNumber());
     }
 }
