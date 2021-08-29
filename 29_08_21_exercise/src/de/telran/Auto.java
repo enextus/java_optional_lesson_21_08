@@ -16,4 +16,9 @@ public class Auto {
     public String getIdNumber() {
         return idNumber;
     }
+
+    public String concat(String a, String b) {
+
+        return a + b;
+    }
 }
