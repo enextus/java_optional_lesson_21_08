@@ -21,4 +21,11 @@ public class Auto {
 
         return a + b;
     }
+
+    public Integer concatTwo(String a, String b) {
+        String c = a + b;
+        Integer d = Integer.parseInt(c);
+        return d * d;
+    }
+
 }
