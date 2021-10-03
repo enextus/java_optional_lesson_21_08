@@ -27,4 +27,9 @@ class AutoTest {
     public void test_three() {
         assertEquals("12", auto.concat(auto.getName(), auto.getIdNumber()));
     }
+
+    @Test
+    public void test_three_Two() {
+        assertEquals(144, auto.concatTwo(auto.getName(), auto.getIdNumber()));
+    }
 }

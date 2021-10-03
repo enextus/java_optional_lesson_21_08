@@ -23,8 +23,8 @@ public class Auto {
     }
 
     public Integer concatTwo(String a, String b) {
-        String c = a + b;
-        Integer d = Integer.parseInt(c);
+        Integer d = Integer.parseInt((a + b));
+
         return d * d;
     }
 
